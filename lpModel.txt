@@ -1,0 +1,9 @@
+Here is a description of the LP which our program solves:
+
+Given n tutors and m tutees, we define the following variables:
+
+x_{i,j} = 1 if tutor i is paired with tutee j
+          0 else
+    for i=1 to n, j=1 to m
+
+d_{i,j} = absolute difference between the number of tutees assigned to tutor i and the number of tutees assigned to tutor j.

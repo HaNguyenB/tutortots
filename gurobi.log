@@ -1,0 +1,365 @@
+
+Gurobi 10.0.0 (win64, gurobi_cl) logging started Sat Nov 12 13:25:28 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-11-07
+Using license file C:\Users\aerial\gurobi.lic
+
+Gurobi Optimizer version 10.0.0 build v10.0.0rc2 (win64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+
+Error 10003: Unable to open file '\program.lp' for input
+
+
+Gurobi 10.0.0 (win64, gurobi_cl) logging started Sat Nov 12 13:25:36 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-11-07
+Using license file C:\Users\aerial\gurobi.lic
+
+Gurobi Optimizer version 10.0.0 build v10.0.0rc2 (win64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Error reading LP format file .\program.lp at line 42
+Malformed term in expression
+Neighboring tokens: " +  d.0.0 <= 0 D.0.0.2: x.0.0 - x.0.0 "
+
+
+Error 10012: Unable to read file
+
+
+Gurobi 10.0.0 (win64, gurobi_cl) logging started Sat Nov 12 13:30:41 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-11-07
+Using license file C:\Users\aerial\gurobi.lic
+
+Gurobi Optimizer version 10.0.0 build v10.0.0rc2 (win64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Warning: row 9 (name "D.0.0.1") contains 5 repeated variable(s) in constraints, grouped them, 5 cancellation
+Warning: row 10 (name "D.0.0.2") contains 5 repeated variable(s) in constraints, grouped them, 5 cancellation
+Warning: row 15 (name "D.1.1.1") contains 5 repeated variable(s) in constraints, grouped them, 5 cancellation
+Warning: row 16 (name "D.1.1.2") contains 5 repeated variable(s) in constraints, grouped them, 5 cancellation
+Warning: row 19 (name "D.2.2.1") contains 5 repeated variable(s) in constraints, grouped them, 5 cancellation
+Warning: row 20 (name "D.2.2.2") contains 5 repeated variable(s) in constraints, grouped them, 5 cancellation
+Warning: lp file contains 30 repeated variable(s) in constraints, grouped them, 30 cancellation
+Read LP format model from file .\program.lp
+Reading time = 0.01 seconds
+: 22 rows, 30 columns, 134 nonzeros
+
+CPU model: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 22 rows, 30 columns and 134 nonzeros
+Model fingerprint: 0x0819259e
+Variable types: 4 continuous, 26 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 4e+09]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 13 rows and 10 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.03 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.0 (win64, gurobi_cl) logging started Sat Nov 12 13:33:32 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-11-07
+Using license file C:\Users\aerial\gurobi.lic
+
+Gurobi Optimizer version 10.0.0 build v10.0.0rc2 (win64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Warning: row 9 (name "D.0.0.1") contains 5 repeated variable(s) in constraints, grouped them, 5 cancellation
+Warning: row 10 (name "D.0.0.2") contains 5 repeated variable(s) in constraints, grouped them, 5 cancellation
+Warning: row 15 (name "D.1.1.1") contains 5 repeated variable(s) in constraints, grouped them, 5 cancellation
+Warning: row 16 (name "D.1.1.2") contains 5 repeated variable(s) in constraints, grouped them, 5 cancellation
+Warning: row 19 (name "D.2.2.1") contains 5 repeated variable(s) in constraints, grouped them, 5 cancellation
+Warning: row 20 (name "D.2.2.2") contains 5 repeated variable(s) in constraints, grouped them, 5 cancellation
+Warning: lp file contains 30 repeated variable(s) in constraints, grouped them, 30 cancellation
+Read LP format model from file .\program.lp
+Reading time = 0.01 seconds
+: 22 rows, 30 columns, 134 nonzeros
+
+CPU model: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 22 rows, 30 columns and 134 nonzeros
+Model fingerprint: 0x6f2786d6
+Variable types: 4 continuous, 26 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 4e+09]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 13 rows and 10 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.0 (win64, gurobi_cl) logging started Sat Nov 12 13:40:28 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-11-07
+Using license file C:\Users\aerial\gurobi.lic
+
+Gurobi Optimizer version 10.0.0 build v10.0.0rc2 (win64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Read LP format model from file .\program.lp
+Reading time = 0.00 seconds
+: 22 rows, 27 columns, 194 nonzeros
+
+CPU model: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 22 rows, 27 columns and 194 nonzeros
+Model fingerprint: 0xbee155dd
+Variable types: 1 continuous, 26 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 4e+09]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 13 rows and 7 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.0 (win64, gurobi_cl) logging started Sat Nov 12 13:47:28 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-11-07
+Using license file C:\Users\aerial\gurobi.lic
+
+Gurobi Optimizer version 10.0.0 build v10.0.0rc2 (win64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Read LP format model from file .\program.lp
+Reading time = 0.01 seconds
+: 22 rows, 27 columns, 194 nonzeros
+
+CPU model: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 22 rows, 27 columns and 194 nonzeros
+Model fingerprint: 0x2645d9e9
+Variable types: 1 continuous, 26 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 4194265.0000
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.01s
+Presolved: 21 rows, 26 columns, 172 nonzeros
+Variable types: 0 continuous, 26 integer (20 binary)
+Found heuristic solution: objective 4194253.0000
+
+Root relaxation: objective -6.100000e+01, 8 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     -61.0000000  -61.00000  0.00%     -    0s
+
+Explored 1 nodes (8 simplex iterations) in 0.06 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: -61 4.19425e+06 4.19427e+06 
+No other solutions better than -61
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -6.100000000000e+01, best bound -6.100000000000e+01, gap 0.0000%
+
+Wrote result file 'assignment.sol'
+
+
+Gurobi 10.0.0 (win64, gurobi_cl) logging started Sun Nov 13 09:09:38 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-11-07
+Using license file C:\Users\aerial\gurobi.lic
+
+Gurobi Optimizer version 10.0.0 build v10.0.0rc2 (win64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Read LP format model from file .\program.lp
+Reading time = 0.00 seconds
+: 22 rows, 32 columns, 199 nonzeros
+
+CPU model: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 22 rows, 32 columns and 199 nonzeros
+Model fingerprint: 0xb20ae406
+Variable types: 1 continuous, 31 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 250000.00000
+Presolve removed 3 rows and 17 columns
+Presolve time: 0.01s
+Presolved: 19 rows, 15 columns, 81 nonzeros
+Variable types: 0 continuous, 15 integer (9 binary)
+Found heuristic solution: objective 49930.000000
+
+Root relaxation: objective -6.100000e+01, 7 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     -61.0000000  -61.00000  0.00%     -    0s
+
+Explored 1 nodes (7 simplex iterations) in 0.05 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: -61 49930 250000 
+No other solutions better than -61
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -6.100000000000e+01, best bound -6.100000000000e+01, gap 0.0000%
+
+Wrote result file 'assignment.sol'
+
+
+Gurobi 10.0.0 (win64, gurobi_cl) logging started Sun Nov 13 09:12:47 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-11-07
+Using license file C:\Users\aerial\gurobi.lic
+
+Gurobi Optimizer version 10.0.0 build v10.0.0rc2 (win64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Read LP format model from file .\program.lp
+Reading time = 0.02 seconds
+: 22 rows, 32 columns, 199 nonzeros
+
+CPU model: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 22 rows, 32 columns and 199 nonzeros
+Model fingerprint: 0xaf1e2752
+Variable types: 1 continuous, 31 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 250000.00000
+Presolve removed 14 rows and 24 columns
+Presolve time: 0.01s
+Presolved: 8 rows, 8 columns, 27 nonzeros
+Found heuristic solution: objective 99991.000000
+Variable types: 0 continuous, 8 integer (5 binary)
+
+Root relaxation: objective 4.999400e+04, 4 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    49994.000000 49994.0000  0.00%     -    0s
+
+Explored 1 nodes (4 simplex iterations) in 0.03 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 49994 99991 250000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.999400000000e+04, best bound 4.999400000000e+04, gap 0.0000%
+
+Wrote result file 'assignment.sol'
+
+
+Gurobi 10.0.0 (win64, gurobi_cl) logging started Sun Nov 13 12:51:15 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-11-07
+Using license file C:\Users\aerial\gurobi.lic
+
+Gurobi Optimizer version 10.0.0 build v10.0.0rc2 (win64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Read LP format model from file program.lp
+Reading time = 0.01 seconds
+: 20 rows, 22 columns, 131 nonzeros
+
+CPU model: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 20 rows, 22 columns and 131 nonzeros
+Model fingerprint: 0x7bbd6442
+Variable types: 1 continuous, 21 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+00]
+Found heuristic solution: objective 150000.00000
+Presolve removed 20 rows and 22 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 1: 150000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.500000000000e+05, best bound 1.500000000000e+05, gap 0.0000%
+
+Wrote result file 'assignment.sol'
+
